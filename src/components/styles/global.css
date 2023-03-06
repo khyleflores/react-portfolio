@@ -1,0 +1,28 @@
+/*Navigation CSS*/
+.customNav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #F2D4D6!important;
+}
+
+.sectionHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
