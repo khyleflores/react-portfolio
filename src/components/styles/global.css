@@ -1,5 +1,15 @@
+:root {
+  --light-pink: #F2D4D6;
+  --main-red: #8e3948;
+  --main-white: white;
+  --main-orange: #fc9a80;
+  --basic-text: #463840;
+}
+
 body{
-  background-color: #F2D4D6!important;
+  background-color: var(--light-pink)!important;
+  color: var(--basic-text)!important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
 /*Navigation CSS*/
@@ -7,14 +17,7 @@ body{
   position: fixed;
   width: 100%;
   z-index: 10;
-  background-color: #F2D4D6!important;
-}
-
-.sectionHeading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
+  background-color: var(--light-pink)!important;
 }
 
 .navbar-nav {
@@ -30,28 +33,7 @@ body{
   margin: 0px 15px;
 }
 
-.imageContainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-      
-/*Sizing of image bootstrap*/
-.homePhoto{
-  width: 100%; 
-  max-width: 400px!important;
-  height: auto;
-}
-
-.h1Subheading{
-  font-size: 2rem;
-}
-
-.h1Sub2heading{
-  font-size: 1.75rem;
-}
-
-.h1Sub3heading{
-  font-size: 1.25rem;
+.sectionTitle h1{
+  font-size: 4rem;
+  font-weight: 900 !important;
 }

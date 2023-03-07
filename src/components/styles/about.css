@@ -1,0 +1,10 @@
+.whiteFont{
+    color: var(--main-white);
+}
+
+/*Sizing of image bootstrap*/
+.img-fluid{
+    width: 100%; 
+    max-width: 400px!important;
+    height: auto;
+}

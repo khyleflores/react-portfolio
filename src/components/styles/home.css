@@ -1,0 +1,53 @@
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sectionHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  
+  /*Sizing of image bootstrap*/
+  .homePhoto{
+    width: 100%; 
+    max-width: 400px!important;
+    height: auto;
+  }
+  
+  .h1Subheading{
+    font-size: 1.25rem;
+    color: var(--main-white);
+    font-weight: lighter;
+  }
+  
+  .h1Sub1heading{
+    font-size: 2.5rem;
+    color: var(--main-red);
+    font-weight: 900;
+  }
+  
+  .h1Sub2heading{
+    font-size: 2rem;
+    color: var(--main-orange);
+    font-weight: 700;
+  }
+  
+  .h1Sub3heading{
+    font-size: 1.75rem;
+    color: var(--main-white);
+    font-weight: 500;
+  }
+  
+  .h1SubIcons a{
+    font-size: 2rem;
+    color: var(--basic-text);
+    padding-right: 20px;
+  }
+  
+  .h1SubIcons a:hover{
+    color: var(--main-red);
+  }
